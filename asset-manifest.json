@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ClockDaily-News-App/static/css/main.b522e02a.css",
-    "main.js": "/ClockDaily-News-App/static/js/main.f6630e01.js",
+    "main.js": "/ClockDaily-News-App/static/js/main.a097df8f.js",
     "static/js/453.35c892eb.chunk.js": "/ClockDaily-News-App/static/js/453.35c892eb.chunk.js",
     "static/media/newspaper.svg": "/ClockDaily-News-App/static/media/newspaper.f6c01ae881cc94731f30.svg",
     "index.html": "/ClockDaily-News-App/index.html",
     "static/media/searchicon.svg": "/ClockDaily-News-App/static/media/searchicon.137f9b3b58dc56f80f2c316d08e9c382.svg",
     "main.b522e02a.css.map": "/ClockDaily-News-App/static/css/main.b522e02a.css.map",
-    "main.f6630e01.js.map": "/ClockDaily-News-App/static/js/main.f6630e01.js.map",
+    "main.a097df8f.js.map": "/ClockDaily-News-App/static/js/main.a097df8f.js.map",
     "453.35c892eb.chunk.js.map": "/ClockDaily-News-App/static/js/453.35c892eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b522e02a.css",
-    "static/js/main.f6630e01.js"
+    "static/js/main.a097df8f.js"
   ]
 }
