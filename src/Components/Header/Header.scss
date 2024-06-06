@@ -1,0 +1,27 @@
+.header{
+    height: 50px;
+    width: 100%;
+    box-shadow: 1px 1px 4px 4px var(--boxshadow-color,lightgray);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: 10px;
+    border-radius: 0px 0px 5px 5px ;
+    .themefont{
+        font-weight: 500;
+    }
+    .themebutton{
+        cursor: pointer;
+    }
+}
+
+
+.header.dark-theme {
+    --boxshadow-color:#8b8b87d1;
+}
+
+h2{
+    font-size: clamp(16px, 4vw, 32px);
+}

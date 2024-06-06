@@ -1,0 +1,33 @@
+
+@import './varaibles.scss';
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  height: 100%;
+}
+/* App.css for dark theme */
+.dark-theme {
+  background-color: $dark-theme-bg;
+  color: $dark-theme-text-color;
+}
+
+/* App.css for light theme */
+.light-theme {
+  background-color: $light-theme-bg;
+  color: $light-theme-text-color;
+}
+*{
+  font-size: clamp(6px, 4vw, 16px);
+}
+
+.form-control{
+  font-size: clamp(4px, 4vw , 16px);
+}

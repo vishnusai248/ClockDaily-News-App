@@ -1,0 +1,76 @@
+.newscomponent{
+    height: 100%;
+    padding: 0px 20px;
+    position: relative;
+    
+    .filters{
+        position: sticky;
+        top: 50px;
+        z-index: 1;
+        gap: 10px;
+        margin-block: 5px ;
+    }
+    .searchdiv{
+        position: relative;
+        // width: 20vw;
+        .searchicon{
+            width: 20px;
+            position: absolute;
+            right: 5px;
+            top: 25%;
+        }
+    }
+
+    .newscard-container{
+        display: flex;
+        justify-content: center;
+        margin-block: 5px;
+        // align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        columns: 3;
+        overflow-y: auto;
+        overflow-x: hidden;
+        max-height: 79vh;
+    }
+    .newscard-container::-webkit-scrollbar{
+        width: 5px;
+        background: var(--scrollbar-bg-color, lightgray);
+        border-radius: 5px;
+    }
+    .newscard-container::-webkit-scrollbar-thumb{
+        width: 3px;
+        background:var(--scrollbar-thumb-bg, rgb(110, 110, 110));
+        border-radius: 5px;
+    }
+
+    .nodata{
+        color: rgb(82, 82, 82);
+        font-weight: 500;
+    }
+
+}
+
+.newscomponent.dark-theme .newscard-container::-webkit-scrollbar {
+    --scrollbar-bg-color: rgb(110, 110, 110);
+
+}
+.newscomponent.dark-theme .newscard-container::-webkit-scrollbar-thumb {
+    --scrollbar-thumb-bg: lightgray;
+
+}
+
+@media screen and (max-width:480px) {
+    .newscard-container{
+        gap: 10px;
+    }
+
+    .newscard-container::-webkit-scrollbar{
+        display: none;
+    }
+}
+@media screen and (max-width:375px) {
+    .searchicon{
+        display: none;
+    }
+}

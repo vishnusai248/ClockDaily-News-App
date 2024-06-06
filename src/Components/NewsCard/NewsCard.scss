@@ -1,0 +1,40 @@
+.newscard{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px var(--darkthemeshadow, rgb(173, 173, 173));
+    // flex-basis: calc(33.33% - 30px); //width-gap
+    flex: 1 0 330px;
+    // max-height: 500px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .img{
+        max-height: 200px;
+        width: 100%;
+    }
+
+    .noimagediv{
+        background-color: lightgrey;
+        background-image: url('../../assets/newspaper.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 200px;
+    }
+
+}
+
+.newscard:hover{
+    scale: (1.02);
+}
+
+.newscard.dark-theme{
+    --darkthemeshadow:#8b8b87d1;
+}
+
+@media  screen and (max-width:480px) {
+    .newscard{
+        flex-basis: 260px;
+    }
+}
